@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.locationtracker.presentation.main.MainFragment"
+        android:label="Current Location Fragment"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.locationtracker.presentation.history.HistoryFragment"
+        android:label="History Fragment"
+        tools:layout="@layout/fragment_history" />
+
+</navigation>
